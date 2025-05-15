@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./media2.css">
+</head>
+<body>
+    <header>
+        <div class="popup">
+        <a id="show_add_photo" href="#">Фото</a>
+        <a href="#post">Посты</a>
+        <a href="#post">Посты</a>
+        <a href="#">Поиск</a>
+        <a href="#">Профиль</a>
+        </div>
+        <div class="micon">
+            <img src="./img/free-icon-menu-12144427.png" alt="">
+        </div>
+        <div class="close_popup">
+            <img src="./img/free-icon-cancel-7903553.png" alt="">
+        </div>
+    </header>
+    <h2 id="post">Посты</h2>
+    <div id="grid">
+        <div class="photo">
+            <img src="https://i.pinimg.com/originals/6a/cf/01/6acf0181847944dafe3760def289ab17.jpg" alt="">
+            <p>Текст поста</p>
+        </div>
+        <div class="photo">
+            <img src="https://i.pinimg.com/originals/59/24/f8/5924f849435eb1f811858d06c72de3a2.jpg" alt="">
+            <p>Текст поста</p>
+        </div>
+        <div class="photo">
+            <img src="https://i.pinimg.com/originals/67/e6/16/67e616c3570130bf2250926b9231e9e4.jpg" alt="">
+            <p>Текст поста</p>
+        </div>
+        <div class="photo">
+            <img src="https://images.wallpaperscraft.ru/image/single/koridor_neon_temnyj_142084_1920x1080.jpg" alt="">
+            <p>Текст поста</p>
+        </div>
+    </div> 
+
+    <div id="add_new_photo">
+        <div>
+            <input id="new_photo_src" type="text" placeholder="Картинка">
+            <input id="new_photo_text" type="text" placeholder="Подпись">
+            <button id="add_photo">Добавить</button>
+            <button id="cancel">Отмена</button>
+        </div>
+    </div>
+
+    <div id="popup_photo">
+        <img src="" alt="">
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
